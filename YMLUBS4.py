@@ -109,7 +109,7 @@ conn = pymssql.connect(server=server, user=username, password=password, database
 excursor = conn.cursor()
 
 
-conn1 = pyodbc.connect(r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\Users\Uttam\Documents\Database2.accdb')
+conn1 = pyodbc.connect(r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=<your access db path to>\Database2.accdb')
 cursor = conn1.cursor()
 cursor.execute("select distinct *from Data_Crawler where WEBSITE = 'YMLU'")
 rows = cursor.fetchall()
