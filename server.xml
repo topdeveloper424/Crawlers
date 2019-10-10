@@ -1,0 +1,4 @@
+<root>
+<MDB DSN="input" UID="input" PWD="input"></MDB>
+<SERVER SERVER="179.191.64.110" DATABASE="Crawler" USERNAME="crawler" PASSWORD="wonming"></SERVER>
+</root>
